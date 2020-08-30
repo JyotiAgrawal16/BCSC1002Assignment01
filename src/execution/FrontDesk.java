@@ -44,7 +44,7 @@ public class FrontDesk {
                     break;
 
                 case RETURN_VIDEO:
-                    System.out.println("Enter the name of the book you want to return: ");
+                    System.out.println("Enter the name of book you want to return: ");
                     scanner.nextLine();
                     bookName = scanner.nextLine();
                     myStudent.doReturn(bookName);

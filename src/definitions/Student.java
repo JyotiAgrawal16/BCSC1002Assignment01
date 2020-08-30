@@ -109,9 +109,9 @@ public class Student {
      *
      * @param name The name of the new book.
      */
-//    public void addBook(String name) {
-//        System.out.println("\"" + name + "\" book is issued.");
-//    }
+    public void addBook(String name) {
+        System.out.println("\"" + name + "\" book is issued.");
+    }
 
     /**
      * This method will print all the elements of the `namesOfTheBooksIssuedByTheStudent` array.

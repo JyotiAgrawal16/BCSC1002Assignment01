@@ -118,9 +118,9 @@ public class Student {
      * This method will print all the elements of the `namesOfTheBooksIssuedByTheStudent` array.
      */
 
-//    public void listOfIssuedBooks() {
-//        for (Book book : this.namesOfTheBooksIssuedByTheStudent) {
-//            System.out.println(book);
-}
+    public void listOfIssuedBooks() {
+        for (Book book : this.namesOfTheBooksIssuedByTheStudent) {
+            System.out.println(book);
+        }
     }
 }

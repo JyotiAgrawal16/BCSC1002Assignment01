@@ -5,7 +5,6 @@
  *  File Name : Library.java
  * */
 package definitions;
-import java.util.Arrays;
 
 public class Library {
 
@@ -14,7 +13,7 @@ public class Library {
 
     // constructor, at least 1
 
-
+/*
     public Library() {
         this.booksThatAreCurrentlyAvailable = new Book[5];
         for (int i = 0; i < booksThatAreCurrentlyAvailable.length; i++) {

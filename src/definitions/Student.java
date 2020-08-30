@@ -15,7 +15,7 @@ public class Student {
     private int numberOfBooksIssuedByTheStudents;
     private Book[] namesOfTheBooksIssuedByTheStudent;
 
-    /*public Student() {
+    public Student() {
         this.namesOfTheBooksIssuedByTheStudent = new Book[4];
         for (int i = 0; i < namesOfTheBooksIssuedByTheStudent.length; i++) {
             namesOfTheBooksIssuedByTheStudent[i] = new Book();
@@ -37,15 +37,14 @@ public class Student {
      *
      * @param name The name of the book that the costumer wants to return.
      */
-    public static void doReturn(String name) {
-        System.out.println("thanks for returning," + name + ".");
-    }
-
-    public String getNameOfTheStudent() {
-
-        return nameOfTheStudent;
-    }
-
+//    public static void doReturn(String name) {
+//        System.out.println("thanks for returning," + name + ".");
+//    }
+//
+//    public String getNameOfTheStudent() {
+//
+//        return nameOfTheStudent;
+//    }
     public void setNameOfTheStudent(String nameOfTheStudent) {
         this.nameOfTheStudent = nameOfTheStudent;
     }
@@ -110,17 +109,17 @@ public class Student {
      *
      * @param name The name of the new book.
      */
-    public void addBook(String name) {
-        System.out.println("\"" + name + "\" book is issued.");
-    }
+//    public void addBook(String name) {
+//        System.out.println("\"" + name + "\" book is issued.");
+//    }
 
     /**
      * This method will print all the elements of the `namesOfTheBooksIssuedByTheStudent` array.
      */
 
-    public void listOfIssuedBooks() {
-        for (Book book : this.namesOfTheBooksIssuedByTheStudent) {
-            System.out.println(book);
-        }
+//    public void listOfIssuedBooks() {
+//        for (Book book : this.namesOfTheBooksIssuedByTheStudent) {
+//            System.out.println(book);
+}
     }
 }

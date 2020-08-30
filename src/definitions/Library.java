@@ -13,7 +13,7 @@ public class Library {
 
     // constructor, at least 1
 
-/*
+
     public Library() {
         this.booksThatAreCurrentlyAvailable = new Book[5];
         for (int i = 0; i < booksThatAreCurrentlyAvailable.length; i++) {

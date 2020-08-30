@@ -15,7 +15,7 @@ public class Student {
     private int numberOfBooksIssuedByTheStudents;
     private Book[] namesOfTheBooksIssuedByTheStudent;
 
-    public Student() {
+    /*public Student() {
         this.namesOfTheBooksIssuedByTheStudent = new Book[4];
         for (int i = 0; i < namesOfTheBooksIssuedByTheStudent.length; i++) {
             namesOfTheBooksIssuedByTheStudent[i] = new Book();

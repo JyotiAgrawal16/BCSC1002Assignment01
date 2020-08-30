@@ -6,12 +6,14 @@
  * */
 package definitions;
 
+import java.util.Objects;
+
 public class Book {
     private String bookName;
     private String authorOfTheBook;
     private String isbnNumberOfTheBook;
 
-  /*  public Book() {
+    public Book() {
         this.bookName = "java";
         this.authorOfTheBook = authorOfTheBook;
         this.isbnNumberOfTheBook = isbnNumberOfTheBook;

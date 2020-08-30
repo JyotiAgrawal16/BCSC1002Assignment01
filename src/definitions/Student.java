@@ -37,14 +37,15 @@ public class Student {
      *
      * @param name The name of the book that the costumer wants to return.
      */
-//    public static void doReturn(String name) {
-//        System.out.println("thanks for returning," + name + ".");
-//    }
-//
-//    public String getNameOfTheStudent() {
-//
-//        return nameOfTheStudent;
-//    }
+    public static void doReturn(String name) {
+        System.out.println("thanks for returning," + name + ".");
+    }
+
+    public String getNameOfTheStudent() {
+
+        return nameOfTheStudent;
+    }
+
     public void setNameOfTheStudent(String nameOfTheStudent) {
         this.nameOfTheStudent = nameOfTheStudent;
     }

@@ -6,6 +6,8 @@
  * */
 package definitions;
 
+import java.util.Arrays;
+
 public class Library {
 
 
@@ -40,7 +42,7 @@ public class Library {
     @Override
     public String toString() {
         return "Library{" +
-                "store=" + Arrays.toString(booksThatAreCurrentlyAvailable) +
+                "booksThatAreCurrentlyAvailable=" + Arrays.toString(booksThatAreCurrentlyAvailable) +
                 '}';
     }
 

@@ -29,7 +29,7 @@ public class FrontDesk {
             System.out.println("-=-=--=-=-\"Welcome To The Front Desk\"-=-=--=-=-");
             System.out.println("How may i help u?");
             System.out.println("1. Issue a new book for me. ");
-            System.out.println("2. Return previously issues book for me. ");
+            System.out.println("2. Retur previously issues book for me. ");
             System.out.println("3. Show all my issues books.");
 
             System.out.println("4. Exit. ");

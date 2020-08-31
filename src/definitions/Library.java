@@ -43,7 +43,7 @@ public class Library {
     public String toString() {
         return "Library{" +
                 "booksThatAreCurrentlyAvailable=" + Arrays.toString(booksThatAreCurrentlyAvailable) +
-                '}';
+                '}';    `
     }
 
     @Override

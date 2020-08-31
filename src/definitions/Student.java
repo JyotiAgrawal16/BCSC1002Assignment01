@@ -111,7 +111,7 @@ public class Student {
      * @param name The name of the new book.
      */
     public void addBook(String name) {
-        System.out.println("\"" + name + "\" book is issued.");
+        System.out.println("\"" + name + "\" boo is issued.");
     }
 
     /**

@@ -42,7 +42,7 @@ public class Library {
     @Override
     public String toString() {
         return "Library{" +
-                "booksThatAreCurrentlyAvailable=" + Arrays.toString(booksThatAreCurrentlyAvailable) +
+                "booksThatArCurrentlyAvailable=" + Arrays.toString(booksThatAreCurrentlyAvailable) +
                 '}';
     }
 

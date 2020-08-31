@@ -14,7 +14,7 @@ public class Book {
     private String isbnNumberOfTheBook;
 
     public Book() {
-        this.bookName = "jav";
+        this.bookName = "ja";
         this.authorOfTheBook = authorOfTheBook;
         this.isbnNumberOfTheBook = isbnNumberOfTheBook;
     }
